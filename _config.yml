@@ -95,21 +95,21 @@ members:
         url: http://twitter.com/handle
 
 # Clients information. Shown on Home and About pages.
-clients:
-  - name: dribbble
-    img: client01.png
-  - name: Code is Poetry
-    img: client02.png
-  - name: Vimeo
-    img: client03.png
-  - name: VimeoPro
-    img: client04.png
+#clients:
+#  - name: dribbble
+#    img: client01.png
+#  - name: Code is Poetry
+#    img: client02.png
+#  - name: Vimeo
+#    img: client03.png
+#  - name: VimeoPro
+#    img: client04.png
 
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
 about: "Automagically dispose cloud resources if no one is using them. Automagically start cloud resources if customer requests are incoming!"
 
 # Testimonial content. Shown on Home and About page.
-testimonial:
-    message: "Kaito Tech is exactly what an IT Dept must have when using cloud computing. It is simple, direct and provides the expected actions. Besides that, the Kaito Masters are helpful and open for new ideas."
-    author: Ajay Seth
-    position: Head of Core Technology and Development - kinetikos.io
+#testimonial:
+#    message: "Kaito Tech is exactly what an IT Dept must have when using cloud computing. It is simple, direct and provides the expected actions. Besides that, the Kaito Masters are helpful and open for new ideas."
+#    author: Ajay Seth
+#    position: Head of Core Technology and Development - kinetikos.io
