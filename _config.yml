@@ -1,5 +1,4 @@
 ### GENERAL SETTINGS ###
-
 # Site settings
 #You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 title: Kaito Tech
@@ -111,6 +110,6 @@ about: "Automagically dispose cloud resources if no one is using them. Automagic
 
 # Testimonial content. Shown on Home and About page.
 testimonial:
-    message: "Kaito Tech is exactly what an IT Dept must have when using cloud computing. It is simple, direct and provides the expected actions. Besides that, the Kaito Tech ninjas are helpful and open for new ideas."
+    message: "Kaito Tech is exactly what an IT Dept must have when using cloud computing. It is simple, direct and provides the expected actions. Besides that, the Kaito Masters are helpful and open for new ideas."
     author: Ajay Seth
-    position: Head of Core Technology and Development - kinetikos.io
+    position: Head of Core Technology and Development - kinetikos.io
