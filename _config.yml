@@ -1,16 +1,18 @@
 ### GENERAL SETTINGS ###
 # Site settings
 #You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+#Google Analytics Verification
+google-site-verification: googlecdd47a54e1d2c52b.html
+#End Verification
+
 title: Kaito Tech
 description: "Kaito Tech optimize your cloud solution. Stop scheduling your cloud Kaito Tech will help you with automation."
 analytics: UA-102193034-1
 baseurl: "" #important: start with /
 url: "http://kaito.tech"
 
-#Google Analytics Verification
-#START
-google-site-verification: googlecdd47a54e1d2c52b.html
-#END
+
+
 # Build settings
 markdown: kramdown
 permalink: /:categories/:title
