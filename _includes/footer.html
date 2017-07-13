@@ -2,12 +2,13 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-4">
-                <h4>About</h4>
+                <h4>The Legend of Kaito</h4>
                 <div class="hline-w"></div>
                 <p>{{ site.about }}</p>
+                <p><br/><a href="{{ "/about/" | prepend: site.baseurl }}" class="btn btn-theme">Discover the Legend</a></p>
             </div>
             <div class="col-lg-4">
-                <h4>Social Links</h4>
+                <h4>Spot us on</h4>
                 <div class="hline-w"></div>
                 <p>
                     {% for network in site.social %}

@@ -3,6 +3,18 @@ layout: index
 title: Home
 permalink: /
 ---
+<!-- GOOGLE ANALYTICS WEBPAGE TRACKING -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-102193034-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!-- /.GOOGLE ANALYTICS WEBPAGE TRACKING -->
 <div id="service">
     <div class="container">
         <div class="row centered">
@@ -11,21 +23,19 @@ permalink: /
                 <span class="sr-only">An image of a magic wand</span>
                 <h4>No Config</h4>
                 <p>Seamless integration with existing services.</p>
-                <p><br/><a href="#" class="btn btn-theme">More Info</a></p>
             </div>
             <div class="col-md-4">
               <i class="fa fa-shield" aria-hidden="true"></i>
                 <span class="sr-only">An image of a shield</span>
                 <h4>Super Secure</h4>
                 <p>Support SSL/TLS end-to-end encryption.</p>
-                <p><br/><a href="#" class="btn btn-theme">More Info</a></p>
+                <p><br/><a href="#" class="btn btn-theme">Claim your Free Trial</a></p>
             </div>
             <div class="col-md-4">
               <i class="fa fa-bolt" aria-hidden="true"></i>
                 <span class="sr-only">An image of a bolt</span>
                 <h4>Fast React</h4>
                 <p>Real-time managing of cloud instances.</p>
-                <p><br/><a href="#" class="btn btn-theme">More Info</a></p>
             </div>
         </div>
     </div><! --/container -->
@@ -42,7 +52,8 @@ permalink: /
 <!-- /.Pricing Table Content -->
 <br>
 {% include portfolio.html title="" limit=0 %}
-
+<!-- PRE FOOTER -->
+<!--
 <div class="container mtb">
     <div class="row">
         <div class="col-lg-4 col-lg-offset-1">
@@ -67,6 +78,6 @@ permalink: /
                 <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a></p>
             {% endfor %}
         </div>
-
+-->
     </div><! --/row -->
 </div><! --/container -->
